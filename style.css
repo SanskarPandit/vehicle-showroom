@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap ');
+body{
+  line-height: 1.5;
+  font-family: 'Poppins',sans-serif;
+}
+
+
 .navbar-nav > li{
     padding-left: 45px;
     padding-right: 45px;
@@ -12,31 +19,14 @@
     width: 100%;
   } */
   .image{
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
     margin-top: 2%;
+    margin-left: 2%;
   }
   .our-range-new .title-component {
     position: relative;
     z-index: 1;
-}
-.our-range-new .title-component .header.black h2 {
-    font-family: "Lato Regular",sans-serif;
-    font-size: 24px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #171717;
-    padding: 0;
-    margin: 20px 0 0;
-}
-.our-range-new .title-component .header.black h3 {
-    font-family: "Lato Regular",sans-serif;
-    font-size: 24px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #171717;
-    padding: 0;
-    margin: 20px 0 0;
 }
 .font{
     
@@ -51,15 +41,46 @@
     margin: 80px auto 30px;
 }
 .footer{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        background-color: #111;
-        height: auto;
-        width: 100%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        padding-top: 40px;
-
+  padding: 70px 0;
+background-color: #24262b;
+}
+.footerContainer{
+  max-width: 1170px;
+  margin: auto;
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none  ;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px ;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: relative;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
 }
 
 #box{
@@ -89,9 +110,6 @@
 .card h3 {
  padding: 2px;
  margin: 8px 0;
-/*   line-height: 20px !important;
- font-size: 18px !important;
- font-weight: 500 !important; */
 }
 
 .card:hover {
@@ -101,9 +119,9 @@
 .card .container {
  padding: 2px 14px;
 }
-
+/* card */
 .card p {
- margin: 14px 0;
+   margin: 14px 0;
 }
 
 .block{
@@ -117,11 +135,8 @@
   font-size: 20px;
 }
 
-
 	.navbar .nav-item:hover .nav-link{ 
-
  transform: scaleX(120%) scaleY(120%);
- text-decoration:2px rgb(246, 109, 109) underline;
+ border: 1px red solid;
+ }
 
-  }
-	
