@@ -1,0 +1,127 @@
+.navbar-nav > li{
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 20px;
+  }
+  .navbar-nav > li:hover{
+    transform:rotateX('30')
+  }
+  /* .navbar{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+  } */
+  .image{
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+  }
+  .our-range-new .title-component {
+    position: relative;
+    z-index: 1;
+}
+.our-range-new .title-component .header.black h2 {
+    font-family: "Lato Regular",sans-serif;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #171717;
+    padding: 0;
+    margin: 20px 0 0;
+}
+.our-range-new .title-component .header.black h3 {
+    font-family: "Lato Regular",sans-serif;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #171717;
+    padding: 0;
+    margin: 20px 0 0;
+}
+.font{
+    
+    text-align: center;
+    font-family: "Lato Regular",sans-serif;
+}
+.box{
+    content: " ";
+    border-top: solid 5px #1f3f6e;
+    display: block;
+    width: 45px;
+    margin: 80px auto 30px;
+}
+.footer{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #111;
+        height: auto;
+        width: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 40px;
+
+}
+
+#box{
+    content: " ";
+    border-top: solid 5px #ff0000;
+    display: block;
+    width: 45px;
+    margin: 75px auto 7px;
+}
+.test {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  justify-content: space-evenly;
+}
+
+.card {
+  border: 1px solid #dadada;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card h3 {
+ padding: 2px;
+ margin: 8px 0;
+/*   line-height: 20px !important;
+ font-size: 18px !important;
+ font-weight: 500 !important; */
+}
+
+.card:hover {
+ box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .container {
+ padding: 2px 14px;
+}
+
+.card p {
+ margin: 14px 0;
+}
+
+.block{
+  content: " ";
+  border-top: double 10px lightskyblue;
+  display: block;
+  width: 45px;
+  margin: 75px auto 7px;
+}
+.li{
+  font-size: 20px;
+}
+
+
+	.navbar .nav-item:hover .nav-link{ 
+
+ transform: scaleX(120%) scaleY(120%);
+ text-decoration:2px rgb(246, 109, 109) underline;
+
+  }
+	
